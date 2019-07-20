@@ -1,0 +1,19 @@
+{
+  "name": "bit-mascot-practice-task",
+  "version": "1.0.0",
+  "description": "This is simple login, logut, registration, password reset system page. This task given by Bit Mascot for practice.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ibrahimnsu15/Bit-Mascot-task.git"
+  },
+  "author": "Mohammad Ibrahim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ibrahimnsu15/Bit-Mascot-task/issues"
+  },
+  "homepage": "https://github.com/ibrahimnsu15/Bit-Mascot-task#readme"
+}
