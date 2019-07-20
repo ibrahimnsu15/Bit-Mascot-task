@@ -10,31 +10,35 @@ const middleware = (req,res,next)=>{
 }
 app.use(middleware);
 
+// static 
+app.use(express.static(__dirname+"/resources"));
+var dir = __dirname+"/resources";
+
 // All routes
 
 app.route("/")
     .get( (req,res)=>{
-        res.sendFile("login.html");
+        res.sendFile(dir+"/resources/login.html");
     }); 
 
 app.route("/profile")
     .get( (req,res)=>{
-        res.sendFile("profile.html");
+        res.sendFile(dir+"/profile.html");
     }); 
 
 app.route("/register")
     .get( (req,res)=>{
-        res.sendFile("register.html");
+        res.sendFile(dir+"/register.html");
     });
 
 app.route("/changePass")
     .get( (req,res)=>{
-        res.sendFile("changePassword.html");
+        res.sendFile(dir+"/changPass.html");
     });
 
 app.route("/admin")
     .get( (req,res)=>{
-        res.sendFile("admin.html");
+        res.sendFile(dir+"/admin.html");
     });
 
 
